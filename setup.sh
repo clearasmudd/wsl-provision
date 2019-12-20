@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-
-wget -qO- https://bootstrap.saltstack.com | sudo sh -s -- -P -d git develop
+cd /tmp
+wget -O bootstrap-salt.sh https://bootstrap.saltstack.com
+sudo sh bootstrap-salt.sh -P git v2019.2.2

@@ -1,12 +1,3 @@
-build-essential:
-  pkg.installed
-
-libssl-dev:
-  pkg.installed
-
-silversearcher-ag:
-  pkg.installed
-
 tree:
   pkg.installed
 
@@ -23,4 +14,7 @@ shellcheck:
   pkg.installed
 
 valgrind:
+  pkg.installed
+
+dos2unix:
   pkg.installed

@@ -1,5 +1,5 @@
 # Windows subsystem for Linux development setup
-
+# sudo salt-call --local --file-root=/mnt/c/vagrant/github/clearasmudd/wsl-provision/states/ state.highstate
 This repository contains code that provisions a bare bone WLS installation with tools listed below:
 
 * Clang
