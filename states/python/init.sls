@@ -47,7 +47,14 @@ m2r:
     - upgrade: True
     - require:
        - pkg: python-pip
+
 yamllint:
+  pip.installed:
+    - upgrade: True
+    - require:
+      - pkg: python-pip
+
+regex:
   pip.installed:
     - upgrade: True
     - require:

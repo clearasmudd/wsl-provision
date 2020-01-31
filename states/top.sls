@@ -1,8 +1,9 @@
 base:
   '*':
-    - shell
-    - python
-    # - vim
-    - git
-    - chefdk
-    - credentials
+    # - shell
+    # - python
+    # # - vim
+    # - git
+    # - chefdk
+    # - credentials
+    - commitlint
